@@ -9,11 +9,11 @@ Utworzenie wirtualnej zmiennej środowiskowej:
 python -m venv venv
 ```
 Aktywacja zmiennej środowiskowej:
-1. Windows
+- Windows
 ```sh
 .\venv\Scripts\activate
 ```
-2. Unix
+- Unix
 ```sh
 source venv/bin/activate
 ```
@@ -21,16 +21,17 @@ source venv/bin/activate
 ```sh
 pip install django
 ```
-3a. Dogranie pillow
+4. Pakiety  
+Pillow
 ```sh
 pip install Pillow
 ```
-4. Uruchomienie pojektu
-1. Windows:
+5. Uruchomienie pojektu
+- Windows:
 ```sh
 python manage.py runserver 
 ```
-2. Unix:
+- Unix:
 ```sh
 python3 manage.py runserver 
 ```

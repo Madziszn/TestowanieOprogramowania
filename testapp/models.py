@@ -1,12 +1,13 @@
 from django.db import models
 
 # Create your models here.
-class listCars(models.Model):
+class ListCars(models.Model):
     nameCar = models.CharField(max_length=255)
     content = models.TextField(default="")
     price = models.PositiveSmallIntegerField(default=1)
-    year = models.PositiveSmallIntegerField(default=1337)
-    imgCar = models.ImageField(upload_to='mediacar',blank=True,null=True)
+    year = models.PositiveSmallIntegerField(default=1800)
+    imgCar = models.ImageField(upload_to='mediacar', blank=True, null=True)
 
-def __str__(self):
-    return self.nameCar
+    def __str__(self):
+        return self.nameCar
+
